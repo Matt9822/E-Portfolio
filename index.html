@@ -18,20 +18,20 @@
       <nav>
         <div class="personal-logo">Matthew Muller</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
               href="languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
-            <li>
+            <li class="nav__link">
                 <a
                   href="projects"
                   class="nav__link--anchor link__hover-effect link__hover-effect--black"
                   >Projects</a
                 >
             </li>
-            <li>
+            <li class="nav__link">
                 <a
                   href="contact"
                   class="nav__link--anchor nav__link--anchor-primary"
@@ -118,7 +118,7 @@
                 <img src="./assets/loopit.png" class="project__img" alt="">
                 <div class="project__description">
                   <h3 class="project__description--title">First website</h3>
-                  <h4 class="project__description--sub-title">HTML CSS</h4>
+                  <h4 class="project__description--sub-title">HTML, CSS</h4>
                   <p class="project__description--para">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident facere pariatur, 
                     eum ex eligendi eius aspernatur vel esse, saepe exercitationem quae ipsa. Voluptas corporis aperiam dolor.
@@ -187,11 +187,16 @@
     </section>
     <footer>
       <div class="row footer__row">
-        <a href="#">
-          <figure>
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
             <img src="./assets/logo.svg" class="footer__logo--img" alt="">
           </figure>
-          <div class="footer__social--link">
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+          <div class="footer__social--list">
             <a href="https://github.com/Matt9822" target="_blank" class="
             fotter__social--link
             link__hover-effect
@@ -213,7 +218,6 @@
             link__hover-effect--white
             " target="_blank">Resume</a>
           </div>
-        </a>
         <div class="footer__copyright">Copyright © Matthew Muller</div>
       </div>
     </footer>
